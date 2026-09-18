@@ -1,8 +1,8 @@
 import cv2
 
-face_path = r"D:\work\olama resm\Computer Vision\Haar cascade classifier\Haarcascades\haarcascade_frontalface_default.xml"
-eye_path = r"D:\work\olama resm\Computer Vision\Haar cascade classifier\Haarcascades\haarcascade_eye.xml"
-image_path = r"D:\work\olama resm\Computer Vision\Haar cascade classifier\faceinput.jpg"
+face_path = r"Haar cascade classifier\Haarcascades\haarcascade_frontalface_default.xml"
+eye_path = r"Haar cascade classifier\Haarcascades\haarcascade_eye.xml"
+image_path = r"Haar cascade classifier\faceinput.jpg"
 
 # Load classifiers
 face_classifier = cv2.CascadeClassifier(face_path)
